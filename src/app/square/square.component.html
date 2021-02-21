@@ -1,0 +1,7 @@
+<button nbButton *ngIf="!value">{{ value }}</button>
+<button nbButton hero status="danger" *ngIf="value == 'X'">
+	{{ value }}
+</button>
+<button nbButton hero status="primary" *ngIf="value == 'O'">
+	{{ value }}
+</button>
